@@ -1,0 +1,160 @@
+<!doctype html>
+<!--Lucius Bossio-->
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>Pest Treatment</title>
+	<link rel ="stylesheet" type = "text/css" href = "./css/Website.css"/>
+	<script src = "./js/Website.js"></script>
+</head>
+
+<body onload = "currentDate()">
+	<div class = "navflexcontainer">
+		<div class = "navflexitem"><a href = "Index.html">Home</a></div>
+		<div class = "navflexitem"><a href = "TablePage.html">Table</a></div>
+		<div class = "navflexitem"><a href = "Images.html">Images</a></div>
+		<div class = "navflexitem"><a href = "Form.html">Form</a></div>
+		<div class = "navflexspace">&nbsp;</div>
+		<div class = "navflexmedia"><a target =_blank href = "http://www.Facebook.com" title = "Facebook"><img src = "./imgs/Facebook.png" height = "20" width = "20" alt = "Facebook"/></a></div>
+		<div class = "navflexmedia"><a target =_blank href = "http://www.Twitter.com" title = "Twitter"><img src = "./imgs/Twitter.png" height = "20" width = "20" alt = "Twitter"/></a></div>
+	</div>
+
+
+	<h1>Organic Cannabis Pest Management</h1>
+
+
+	<div class = "maincontainer">
+		<h2>Pest Treatment</h2>
+		
+		<p>Common pests encountered while growing <span class = "unnecessaryspan">organic cannabis</span> and various strategies for eliminating them.</p>
+		
+		<button onclick = "changeTable()">Light Theme</button>&nbsp;<span class = "unnecessaryspan">Refresh page to go back.</span>
+		
+		<div class = "theme">
+			<table>
+				<tr>
+					<th colspan = "5">Pest Index</th>
+				</tr>
+				
+				<tr>
+					<th>Type</th>
+					<th>Pest</th>
+					<th>Picture</th>
+					<th>Description</th>
+					<th>Treatment</th>
+				</tr>
+				
+				<tr>
+					<th rowspan = "4">Insects</th>
+					<td>Aphids</td>
+					<td><img src = "./imgs/Aphid.jpg" height = "200" width = "120" alt = "Aphid"/></td>
+					<td>Very small, can be many colours, may have wings, oval shaped, can be found anywhere on the plant.</td>
+					<td>
+						<ul>
+							<li>Amend soil with rice hulls</li>
+							<li>Apply foliar spray or soil drench containing citric acid or kaitenase</li>
+							<li>Change clothes before entering garden and have dedicated shoes</li>
+							<li>Do not allow other people or pests to enter garden</li>
+						</ul>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Mites</td>
+					<td><img src = "./imgs/Mites.jpg" height = "200" width = "120" alt = "Mites"/></td>
+					<td>Too small to see without magnification, use symptoms as a guide: droopy twisted leaves, curled leaf edges, twisted new growth, web (spider mites), yellowing or dead spots. Symptoms should be concentrated in specific areas.</td>
+					<td>
+						<ul>
+							<li>Amend soil with rice hulls</li>
+							<li>Apply foliar spray or soil drench containing citric acid or kaitenase</li>
+							<li>Change clothes before entering garden and have dedicated shoes</li>
+							<li>Do not allow other people or pests to enter garden</li>
+							<li>Remove affected matter</li>
+						</ul>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Hard Bodied Insects</td>
+					<td><img src = "./imgs/Grasshopper.jpg" height = "200" width = "120" alt = "Grasshopper"/></td>
+					<td>Typically larger insects that consume large amounts of plant stem or foliage.</td>
+					<td>
+						<ul>
+							<li>Amend soil with rice hulls</li>
+							<li>Apply foliar spray or soil drench containing citric acid or kaitenase</li>
+							<li>Keep plants indoors or cover with shade screen or a greenhouse</li>
+						</ul>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Flying Insects</td>
+					<td><img src = "./imgs/WhiteFly.jpg" height = "200" width = "120" alt = "White Fly"/></td>
+					<td>Small gnats or flies found around and on the underside of foliage.</td>
+					<td>
+						<ul>
+							<li>Amend soil with rice hulls</li>
+							<li>Apply foliar spray or soil drench containing citric acid or kaitenase</li>
+						</ul>
+					</td>
+				</tr>
+				
+				<tr>
+					<th rowspan = "2">&nbsp;Mold/Fungus&nbsp;</th>
+					<td>Powdery Mildew</td>
+					<td><img src = "./imgs/PM.jpg" height = "200" width = "120" alt = "Powdery Mildew"/></td>
+					<td>White powdery substance on the surface of the plant.</td>
+					<td>
+						<ul>
+							<li>Amend soil with rice hulls</li>
+							<li>Remove affected matter</li>
+							<li>Remove any aphid infestations</li>
+							<li>Manage VPD and reduce diurnal temperature swing</li>
+							<li>Do not over water</li>
+							<li>Do not allow plants to contact each other</li>
+						</ul>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Botryitis</td>
+					<td><img src = "./imgs/Botrytis.jpg" height = "200" width = "120" alt = "Botrytis"/></td>
+					<td>Dark brown/gray dead spots found inside flower.</td>
+					<td>
+						<ul>
+							<li>Amend soil with rice hulls</li>
+							<li>Remove affected matter</li>
+							<li>Remove any aphid infestations</li>
+							<li>Manage VPD and reduce diurnal temperature swing</li>
+							<li>Do not over water</li>
+							<li>Do not allow plants to contact each other</li>
+						</ul>
+					</td>
+				</tr>
+				
+				<tr>
+					<th>Viruses</th>
+					<td>Tobacco Mosaic Virus</td>
+					<td><img src = "./imgs/Virus.jpg" height = "200" width = "120" alt = "Tobacco Mosaic Virus"/></td>
+					<td>Symptoms include twisted  and stunted growth, curled leaf tips, yellow spots or specks on unhealthy leaves, a lack of cannabinoid and terpene production. Found all over the plant.</td>
+					<td>
+						<ul>
+							<li>Currently no organic cure</li>
+							<li>Amend soil with rice hulls</li>
+							<li>Sanitize pruning equipment and garden, maintain overall cleanliness</li>
+							<li>Avoid breaking cell walls and preventing other pests from doing so</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+	
+	<div class = "footercontainer">
+		&copy; Lucius Bossio -&nbsp;
+		<span id = "showDate"></span>
+		<div class = "contact">Contact: <a href = "mailto:lucius.bossio@student.sl.on.ca" title = "lucius.bossio@student.sl.on.ca">lucius.bossio@student.sl.on.ca</a></div>
+	</div>
+</body>
+</html>

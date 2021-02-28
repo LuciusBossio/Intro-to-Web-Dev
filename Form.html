@@ -1,0 +1,108 @@
+<!doctype html>
+<!--Lucius Bossio-->
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>Create Profile</title>
+	<link rel ="stylesheet" type = "text/css" href = "./css/Website.css"/>
+	<script src = "./js/Website.js"></script>
+</head>
+
+<body onload = "currentDate()">
+	<div class = "navflexcontainer">
+		<div class = "navflexitem"><a href = "Index.html">Home</a></div>
+		<div class = "navflexitem"><a href = "TablePage.html">Table</a></div>
+		<div class = "navflexitem"><a href = "Images.html">Images</a></div>
+		<div class = "navflexitem"><a href = "Form.html">Form</a></div>
+		<div class = "navflexspace">&nbsp;</div>
+		<div class = "navflexmedia"><a target =_blank href = "http://www.Facebook.com" title = "Facebook"><img src = "./imgs/Facebook.png" height = "20" width = "20" alt = "Facebook"/></a></div>
+		<div class = "navflexmedia"><a target =_blank href = "http://www.Twitter.com" title = "Twitter"><img src = "./imgs/Twitter.png" height = "20" width = "20" alt = "Twitter"/></a></div>
+	</div>
+
+
+	<h1>Organic Cannabis Pest Management</h1>
+
+
+	<div class = "maincontainer">
+		<h2>Create Profile</h2>
+
+		<p>Join our forum and share stories, insights, and encouragement with <span class = "unnecessaryspan">organic cannabis</span> growers from around the globe.</p>
+		
+		<p><span class = "necessaryfield">*</span> Indicates a required field.
+		
+		<form>	
+			<fieldset>
+				<legend>Log In</legend>
+				<p>
+					<label><span class = "necessaryfield">*</span> User name:</label>
+					<span class = "usernamealign"><input type = "text" id = "username" required/></span>
+				</p>
+				<p>
+					<label><span class = "necessaryfield">*</span> Password:</label>
+					<span class = "passwordalign"><input type = "password" id = "password" required/></span>
+				</p>
+				<p>
+					<span class = "unnecessaryspan">Password must contain at least 8 characters, including one special character.</span>
+				</p>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Email and Notifications</legend>
+				<p>
+					<label><span class = "necessaryfield">*</span> Email:</label>
+					<span class = "emailalign"><input type = "text" id = "email" placeholder = "Not displayed publicly" required/></span>
+				</p>
+				<p>
+					I would like to receive news, updates, and promotions.
+					<input type = "checkbox" id = "marketing">
+				</p>
+				<p>
+					I would like to be notified when forum activity occurs (replies, likes, etc.)
+					<input type = "checkbox" id = "forumactivity" checked>
+				</p>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Location and Privacy</legend>
+				<label><span class = "necessaryfield">*</span> Country:</label>
+				<p>
+					<select id = "country" size = "1" required>
+						<option value = "">Select Country</option>
+						<option value = "canada">Canada</option>
+						<option value = "unitedstates">United States</option>
+						<option value = "unitedkingdom">United Kingdom</option>
+						<option value = "netherlands">Netherlands</option>
+						<option value = "australia">Australia</option>
+					</select>
+				</p>
+				Hide my:
+				<p><input type = "radio" name = "hidelocation" value = "100"/>&nbsp;Location</p>
+					<input type = "radio" name = "hidelocation" value = "200"/>&nbsp;Location and User Name
+				<p><input type = "radio" name = "hidelocation" value = "300"/>&nbsp;Profile and all activity (lurker mode)</p>
+			</fieldset>
+			
+			Briefly describe yourself or your current cultivation setup:
+			<p>	
+				<textarea id = "describeyourself" rows = "7" cols = "39" maxlength="255"></textarea>
+			</p>
+			
+			<div class = "submitform">
+				<p>
+					<span class = "necessaryfield">*</span>&nbsp;I agree to the privacy policy and terms of service.
+					<input type = "checkbox" id = "termsofservice" required>
+				</p>
+				<p>
+					<button type = "button">Submit</button>
+				</p>
+			</div>
+		</form>	
+	</div>
+
+
+	<div class = "footercontainer">
+		&copy; Lucius Bossio -&nbsp;
+		<span id = "showDate"></span>
+		<div class = "contact">Contact: <a href = "mailto:lucius.bossio@student.sl.on.ca" title = "lucius.bossio@student.sl.on.ca">lucius.bossio@student.sl.on.ca</a></div>
+	</div>
+</body>
+</html>
